@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Contactez-moi</legend>
+        <label>Civilité:</label>
+        <label for="r1">Monsieur</label>
+        <input type="radio" id="r1" name="genre" checked/>
+        <label for="r1">Madame</label>
+        <input type="radio" id="r2" name="r" />
+        <label for="r1">Madmoiselle</label>
+        <input type="radio" id="r3" name="r" /><br><br>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="votre nom" required/>
+        <label for="pren">prénom</label>
+        <input type="text" id="pren" name="pren" placeholder="votre prenom" required/><br><br>
+        <label for="email">Email</label>
+        <input type="password" id="email" name="email" placeholder="votre e-mail" required>
+        <label for="tel">telephone</label>
+        <input type="tel" id="tel" name="tel" placeholder="telephone" required pattern="9[0-9]{7}"><br><br>
+        <label for="suj">Sujet</label>
+        <input type="text" id="suj" name="suj" placeholder="votre Sujet" required><br><br>
+        <label>Message:</label>
+        <textarea cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+     </fieldset>
+    </form>
+  </body>
+</html>
